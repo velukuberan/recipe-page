@@ -157,29 +157,11 @@ For unordered lists, I replaced default bullets with custom-colored ones:
 
 I implemented a mobile-first approach with three breakpoints:
 
-Breakpoint
-
-Width
-
-Description
-
-Mobile
-
-< 768px
-
-Full-width image, no border-radius on card
-
-Tablet
-
-≥ 768px
-
-Centered card with padding
-
-Desktop
-
-≥ 1440px
-
-Maximum card width, increased margins
+| Breakpoint | Width      | Description                                |
+|------------|------------|--------------------------------------------|
+| Mobile     | < 768px    | Full-width image, no border-radius on card |
+| Tablet     | ≥ 768px    | Centered card with padding                 |
+| Desktop    | ≥ 1440px   | Maximum card width, increased margins      |
 
 Key mobile technique - removing card padding to allow full-bleed image:
 
@@ -239,8 +221,9 @@ Areas I want to improve in future projects:
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--   GitHub - [@yourusername](https://github.com/yourusername)
+-   Frontend Mentor - [@velukuberan](https://www.frontendmentor.io/profile/velukuberan)
+-   GitHub - [@velukuberan](https://github.com/velukuberan)
+-   Twitter - [@DevVeeKay](https://x.com/DevVeeKay)
 
 ----------
 

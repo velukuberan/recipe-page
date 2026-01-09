@@ -269,7 +269,10 @@ recipe-page/
 3.  Or use a local development server:
     
     ```bash
-    # Using Pythonpython -m http.server 8000# Using Node.js (http-server)npx http-server
+    # Using Pythonpython
+    -m http.server 8000
+    # Using Node.js (http-server)
+    npx http-server
     
     ```
     

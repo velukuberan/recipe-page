@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Recipe Page Desktop](https://claude.ai/chat/screenshot-desktop.png) ![Recipe Page Mobile](https://claude.ai/chat/screenshot-mobile.png)
+![Recipe Page Desktop](https://github.com/user-attachments/assets/4379115d-5c15-4797-a5f3-17b77f9a7f38) ![Recipe Page Mobile](https://github.com/user-attachments/assets/842e4bcd-60a2-49e6-a186-5b7bdc5437ab)
 
 ### Links
 

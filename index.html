@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Recipe page</title>
-
-</head>
-<body>
-        <h1>Basic recipe page</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="stylesheet" href="./style.css">
+        <title>Frontend Mentor | Recipe page</title>
+    </head>
+    <body>
+        <main>
+            <article class="card">
+                <figure class="card__image">
+                    <img src="./assets/images/image-omelette.jpeg" alt="Omelette Recipe">
+                </figure>
+                <div class="card__text-content">
+                    <div class="card__title">
+                        <h1 class="text-preset-1">Simple Omelette Recipe</h1>
+                        <p class="text-preset-4">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+                    </div>
+                    <div class="card__preparation">
+                        <h3 class="text-preset-3">Preparation time</h3>
+                        <ul class="text-preset-4">
+                            <li><span><strong>Total:</strong> Approximately 10 minutes</span></li>
+                            <li><span><strong>Preparation:</strong> 5 minutes</span></li>
+                            <li><span><strong>Cooking:</strong> 5 minutes</span></li>
+                        </ul>
+                    </div>
+                    <div class="card__ingredients">
+                        <h2 class="text-preset-2">Ingredients</h2>
+                        <ul class="text-preset-4">
+                            <li>2-3 large eggs</li>
+                            <li>Salt, to taste</li>
+                            <li>Pepper, to taste</li>
+                            <li>1 tablespoon of butter or oil</li>
+                            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+                        </ul>
+                    </div>
+                    <hr class="card__divider">
+                    <div class="card__instructions">
+                        <h2 class="text-preset-2">Instructions</h2> 
+                        <ol>
+                            <li>
+                                <span><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</span>
+                            </li>
+                            <li>
+                                <span><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</span>
+                            </li>
+                            <li><span><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</span></li>
+                            <li><span><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</span></li>
+                            <li><span><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</span></li>
+                            <li><span><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</span></li>
+                        </ol>
+                    </div>
+                    <hr class="card__divider">
+                    <div class="card__nutrition">
+                        <h2 class="text-preset-2">Nutrition</h2> 
+                        <p class="text-preset-4">The table below shows nutritional values per serving without the additional fillings.</p>
+                    </div>
+                </div>
+            </article> 
+        </main>
+    </body>
 </html>

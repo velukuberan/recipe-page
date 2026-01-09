@@ -36,11 +36,17 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4379115d-5c15-4797-a5f3-17b77f9a7f38" alt="Recipe Page Desktop" width="50%">
+  <figure>
+    <img src="https://github.com/user-attachments/assets/4379115d-5c15-4797-a5f3-17b77f9a7f38" alt="Recipe Page Desktop" width="75%">
+    <figcaption>On Desktop</figcaption>
+  </figure>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/842e4bcd-60a2-49e6-a186-5b7bdc5437ab" alt="Recipe Page Mobile" width="50%">
+    <figure>
+    <img src="https://github.com/user-attachments/assets/842e4bcd-60a2-49e6-a186-5b7bdc5437ab" alt="Recipe Page Mobile" width="50%">
+    <figcaption>On Mobile</figcaption>
+  </figure>
 </p>
 
 ### Links

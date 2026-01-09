@@ -102,12 +102,11 @@ body {
 main {
     display: grid;
     place-content: center;
-    margin: var(--spacing-1600) var(--spacing-600);
 }
 
 .card {
     width: 100%;
-    max-width: 736px;
+    min-width: 23.4375rem;
     background-color: var(--white);
     border-radius: var(--spacing-300);
     display: flex;
@@ -117,7 +116,7 @@ main {
 }
 
 .card img {
-    height: 300px;
+    width: 100%;
     border-radius: var(--spacing-150);
     display: block;
     object-fit: cover;
@@ -167,7 +166,7 @@ main {
     gap: var(--spacing-300);
 }
 
-.card__preparation h3 {
+.card__preparation h2 {
     color: var(--rose-800);
 }
 
@@ -221,7 +220,7 @@ main {
 }
 
 .card__instructions ol li {
-    padding-left: calc(8px + 16px); /* number space + gap */
+    padding-left: var(--spacing-300);
     position: relative;
     color: var(--stone-600);
 }
@@ -235,3 +234,71 @@ main {
     left: 0;
 }
 
+.card__nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.card__nutrition tr:not(:last-child) {
+    border-bottom: 1px solid var(--stone-150);
+}
+
+.card__nutrition td {
+    padding: var(--spacing-150) var(--spacing-400);
+    color: var(--stone-600);
+}
+
+.card__nutrition th {
+    width: 50%;
+    text-align: left;
+    padding: 0 var(--spacing-600);
+    font-weight: var(--font-weight-regular);
+}
+
+.card__nutrition td strong {
+    color: var(--brown-800);
+    font-weight: var(--font-weight-bold);
+}
+
+@media screen and (max-width:  47.9375rem) {
+    .card {
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    .card img {
+        border-radius: 0;
+    }
+    
+    .card__text-content {
+        padding: 0 var(--spacing-400) var(--spacing-400);
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    main {
+        margin: var(--spacing-500);
+    }
+
+    .card {
+        width: 38.5rem;
+    }
+
+    .card img {
+        min-width: 536px;
+    }
+}
+
+@media screen and (min-width: 90rem) {
+    main {
+        margin: var(--spacing-1600) var(--spacing-600);
+    }
+
+    .card {
+        width: 46rem;
+    }
+
+    .card img {
+        min-width: 656px;
+    }
+}
